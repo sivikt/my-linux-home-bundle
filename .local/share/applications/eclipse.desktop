@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Name=Eclipse
+GenericName=IDE
+Comment=Edit your code
+
+Exec=/home/sivikt/IThings/tools/eclipse/eclipse
+Terminal=false
+Icon=eclipse1
+Type=Application
+Categories=IDE;Development
+X-Ayatana-Desktop-Shortcuts=NewWindow
+
+[NewWindow Shortcut Group]
+Name=New Window
+Exec=/home/sivikt/IThings/tools/eclipse/eclipse
+TargetEnvironment=Unity
+

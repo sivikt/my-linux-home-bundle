@@ -1,0 +1,1 @@
+/home/sivikt/.shell-micro-utils/odesk_auto_login.py

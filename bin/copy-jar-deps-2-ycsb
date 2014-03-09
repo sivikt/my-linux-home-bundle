@@ -1,0 +1,3 @@
+#!/bin/bash
+
+scp -i ~/.ssh/nike_rsa -r ~/IThings/job/altoros/nike_678/ycsb_workload/target/nike-ycsb-simulator/lib ec2-user@ec2-54-84-196-220.compute-1.amazonaws.com:~/cassandra/lib

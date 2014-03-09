@@ -1,0 +1,105 @@
+[user]
+	name = Serj Sintsov
+	email = ssivikt@gmail.com
+
+[core]
+	editor = gedit
+	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+	autocrlf = false
+
+[web]
+	browser = google-chrome
+
+[rerere]
+	enabled = 1
+	autoupdate = 1
+
+[alias]
+    # Mercurial style outcoming and incoming changes
+    ###
+    out = log --decorate @{u}..
+    in = "!git remote update -p; git log --decorate ..@{u}"
+
+    # View commits history
+    ###
+    lg = log --oneline
+    lgg = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+    # Repo status
+    ###
+	st = status
+	stb = status -s -b
+
+    # Commit options
+    ###
+    c = commit
+    ca = commit -a
+    cm = commit -m
+    cam = commit -am
+    cd = commit --amend
+    cad = commit -a --amend
+
+    # Rebasing
+    ###
+    rb = rebase    
+
+    # Pull and Push options
+    ###
+    ph = push
+    pl = pull
+    plrb = pull --rebase
+
+	# Merging
+	###
+	m = merge
+	d = diff
+	dc = diff --cached
+	dk = diff --check
+	dck = diff --cached --check
+
+	# Branching
+	###
+	co = checkout
+	cob = checkout -b
+	b = branch
+	ba = branch -a
+	bd = branch -d
+	br = branch -r
+
+[color]
+	ui = auto
+
+[color "branch"]
+	current = yellow bold
+	local = green bold
+	remote = cyan bold
+
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+
+[push]
+    default = current
+
+[merge]
+    tool = meld
+
+[giggle]
+    main-window-maximized = true
+    main-window-geometry = 0x0+0+0
+    history-view-vpane-position = 374
+    main-window-view = HistoryView
+
+[http]
+    sslverify = false
+
+[credential]
+    helper = cache --timeout=3600

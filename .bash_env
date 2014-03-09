@@ -1,0 +1,21 @@
+
+# Exports
+export GIT_SSL_NO_VERIFY=true
+
+#export JAVA_HOME=/usr/lib/jvm/default-java
+export JAVA_HOME=$HOME/IThings/tools/default-java
+export GROOVY_HOME=$HOME/IThings/tools/default-groovy
+export GRAILS_HOME=$HOME/IThings/tools/default-grails
+export GRADLE_HOME=$HOME/IThings/tools/default-gradle
+export GRADLE_OPTS="-Dorg.gradle.daemon=true"
+export NODE_HOME=$HOME/IThings/tools/default-node
+export SCALA_HOME=$HOME/IThings/tools/default-scala
+
+export WEBSTORM_HOME=$HOME/IThings/tools/WebStorm
+export WEBIDE_JDK=$HOME/IThings/tools/default-java
+export IDEA_JDK=$HOME/IThings/tools/default-java
+
+export PATH=$SCALA_HOME/bin:$NODE_HOME/bin:$JAVA_HOME/bin:$GROOVY_HOME/bin:$GRAILS_HOME/bin:$GRADLE_HOME/bin:$WEBSTORM_HOME/bin:$PATH
+
+# Work specific env vars
+. $HOME/IThings/job/altoros/co2co/env/c2c-env-vars

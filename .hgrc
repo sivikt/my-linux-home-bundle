@@ -1,0 +1,30 @@
+
+[paths]
+minsk = http://mnsmischrt04.internal.corp/hg/chartis2MNSK
+local = http://localhost.localdomain:8000
+
+[ui]
+username = Serj Veras <email@gmail.com>
+verbose = True
+merge = meld
+
+[auth]
+minsk.prefix = repo_url
+minsk.username = user
+minsk.password = pass
+
+[hostfingerprints]
+rix-mercurial01.exigenservices.com = 53:d0:81:ba:f8:f5:f8:8f:f3:a6:cf:36:b3:6a:14:de:09:2c:2c:90
+
+[extensions]
+hgcontains = ~/.hgext/contains.py
+reviewboard = ~/.hgext/mercurial-reviewboard/reviewboard.py
+
+[reviewboard]
+server = server_name
+user = user
+password = pass
+repoid = MNS
+target_groups = MNS_TEAM
+explicit_publish_update = true
+launch_webbrowser = true

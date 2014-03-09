@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=SoapUI-4.6.1
+Exec=/bin/sh "/home/sivikt/IThings/tools/SoapUI-4.6.1/bin/SoapUI-4.6.1"
+Icon=/home/sivikt/IThings/tools/SoapUI-4.6.1/.install4j/SoapUI-4.6.1.png
+Categories=Application;

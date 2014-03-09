@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Skype
+Comment=Skype Internet Telephony
+Exec=env PULSE_LATENCY_MSEC=30 skype %U
+Icon=skype-icon
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=Network;Application;
+MimeType=x-scheme-handler/skype;
+X-KDE-Protocols=skype
+
+[NewWindow Shortcut Group]
+Name=New Window
+Exec=env PULSE_LATENCY_MSEC=30 skype %U
+TargetEnvironment=Unity
+

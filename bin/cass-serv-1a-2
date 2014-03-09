@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "connetct to ec2-54-84-139-209.compute-1.amazonaws.com"
+ssh -i ~/.ssh/nike_rsa ec2-user@ec2-54-84-139-209.compute-1.amazonaws.com
