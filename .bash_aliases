@@ -8,6 +8,7 @@ alias cd..='cd ..'
 
 
 # Git
+alias gt='git'
 alias gtcl='git clone'
 alias gtco='git checkout'
 alias gtpl='git pull'
@@ -58,7 +59,6 @@ alias l.='ls -d .* --color=auto'
 
 # Shortcuts
 alias c="clear"
-alias gt="git"
 alias v="vim"
 alias bc='bc -l' # calculator with math support
 alias sha1='openssl sha1' # generate sha1 digest
@@ -70,7 +70,7 @@ alias ping='ping -c 5'
 alias fastping='ping -c 100 -s.2'
 alias oports='netstat -tulanp'
 # do not delete / or prompt if deleting more than 3 files at a time #
-alias rm='rm -I --preserve-root'
+#alias rm='rm -I --preserve-root'
 # confirmation #
 alias mv='mv -i'
 alias cp='cp -i'
@@ -95,7 +95,7 @@ alias fgrep='fgrep --color=auto'
 
 
 # Processes
-alias ps-grep='ps ax | grep'
+alias psgrep='ps ax | grep'
 alias kill9='kill -9'
 ## pass options to free ## 
 alias meminfo='free -m -l -t'
@@ -128,6 +128,7 @@ if [ $UID -ne 0 ]; then
     alias install='sudo yum install'
     alias instally='sudo yum -y install'
     alias yum='sudo yum'
+    alias apt-get='sudo apt-get'
 fi
 
 

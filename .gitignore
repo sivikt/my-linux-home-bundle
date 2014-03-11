@@ -79,6 +79,7 @@
 .thumbnails
 .kde
 .local
+.rpmdb
 ProfitBricks-soapui-project.xml
 default-soapui-workspace.xml
 soapui-settings.xml
