@@ -5,7 +5,7 @@
 [core]
 	editor = gedit
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
-	autocrlf = false
+	autocrlf = input
 
 [web]
 	browser = google-chrome
@@ -49,22 +49,22 @@
     pl = pull
     plrb = pull --rebase
 
-	# Merging
-	###
-	m = merge
-	d = diff
-	dc = diff --cached
-	dk = diff --check
-	dck = diff --cached --check
-
-	# Branching
-	###
-	co = checkout
-	cob = checkout -b
-	b = branch
-	ba = branch -a
-	bd = branch -d
-	br = branch -r
+    # Merging
+    ###
+    m = merge
+    mnc = merge --no-commit
+    d = diff
+    dc = diff --cached
+    dck = diff --cached --check
+  
+    # Branching
+    ###
+    co = checkout
+    cob = checkout -b
+    b = branch
+    ba = branch -a
+    bd = branch -d
+    br = branch -r
 
 [color]
 	ui = auto
