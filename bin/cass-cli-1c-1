@@ -1,3 +1,0 @@
-#!/bin/bash
-
-ssh -i ~/.ssh/nike_rsa ec2-user@ec2-54-84-196-220.compute-1.amazonaws.com

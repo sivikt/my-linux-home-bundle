@@ -34,6 +34,7 @@ application/rss+xml=thunderbird.desktop
 application/x-extension-rss=thunderbird.desktop
 
 [Added Associations]
+x-scheme-handler/sop=sopcast-player.desktop;
 text/html=gedit.desktop;emacs24.desktop;
 text/xml=gedit.desktop;
 text/plain=gedit.desktop;

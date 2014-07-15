@@ -1,4 +1,0 @@
-#!/bin/bash
-
-echo "connect to 54.84.172.51"
-ssh -i ~/.ssh/nike_rsa ec2-user@54.84.172.51

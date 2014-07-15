@@ -1,3 +1,0 @@
-#!/bin/bash
-
-scp -i ~/.ssh/nike_rsa ~/IThings/job/altoros/nike_678/ycsb_workload/target/nike-ycsb-simulator/ycsb_workload-1.0-SNAPSHOT.jar ec2-user@54.84.172.51:~/cassandra/ycsb_workload.jar
