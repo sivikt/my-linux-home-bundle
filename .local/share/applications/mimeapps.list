@@ -72,3 +72,8 @@ application/octet-stream=gedit.desktop;
 application/x-trash=gedit.desktop;
 text/x-java=gedit.desktop;
 audio/x-riff=rhythmbox.desktop;vlc.desktop;
+x-scheme-handler/http=exo-web-browser.desktop
+x-scheme-handler/https=exo-web-browser.desktop
+inode/directory=exo-file-manager.desktop
+x-scheme-handler/trash=exo-file-manager.desktop
+

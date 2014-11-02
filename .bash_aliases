@@ -60,6 +60,7 @@ alias l.='ls -d .* --color=auto'
 # Shortcuts
 alias c="clear"
 alias v="vim"
+alias es="emacs -nw"
 alias bc='bc -l' # calculator with math support
 alias sha1='openssl sha1' # generate sha1 digest
 alias mkdir='mkdir -pv'
@@ -112,22 +113,10 @@ alias cpuinfo='lscpu'
 ## get GPU ram on desktop / laptop## 
 alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
 
-# Enhanced WHOIS lookups
-alias whois="whois -h whois-servers.net"
-
-
-# Add an "alert" alias for long running commands.  Use like so:
-#   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-
 
 # if user is not root, pass all commands via sudo #
 if [ $UID -ne 0 ]; then
     alias reboot='sudo reboot'
-    alias update='sudo yum update'
-    alias install='sudo yum install'
-    alias instally='sudo yum -y install'
-    alias yum='sudo yum'
     alias apt-get='sudo apt-get'
 fi
 

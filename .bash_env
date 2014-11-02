@@ -16,6 +16,3 @@ export WEBIDE_JDK=$HOME/IThings/tools/default-java
 export IDEA_JDK=$HOME/IThings/tools/default-java
 
 export PATH=$SCALA_HOME/bin:$NODE_HOME/bin:$JAVA_HOME/bin:$GROOVY_HOME/bin:$GRAILS_HOME/bin:$GRADLE_HOME/bin:$WEBSTORM_HOME/bin:$PATH
-
-# Work specific env vars
-. $HOME/IThings/job/altoros/co2co/env/c2c-env-vars
