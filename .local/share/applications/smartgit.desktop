@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=SmartGit
+GenericName=VCS
+
+Exec=/home/sivikt/IThings/tools/smartgithg-5_0_9/bin/smartgithg.sh
+Terminal=false
+Icon=smartgit
+Type=Application
+Categories=Development
+X-Ayatana-Desktop-Shortcuts=NewWindow
+
+[NewWindow Shortcut Group]
+Name=New Window
+Exec=/home/sivikt/IThings/tools/smartgithg-5_0_9/bin/smartgithg.sh
+TargetEnvironment=Unity
+

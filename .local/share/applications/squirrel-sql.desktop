@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Name=SQuirreL
+GenericName=DB UI console
+Comment=Manage your schema
+
+Exec=/opt/squirrel-sql-3.5.2/squirrel-sql.sh
+Terminal=false
+Icon=squirrel-sql
+Type=Application
+Categories=Development
+X-Ayatana-Desktop-Shortcuts=NewWindow
+
+[NewWindow Shortcut Group]
+Name=New Window
+Exec=/opt/squirrel-sql-3.5.2/squirrel-sql.sh
+TargetEnvironment=Unity
+

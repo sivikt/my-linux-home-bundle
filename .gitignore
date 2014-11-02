@@ -1,9 +1,9 @@
 *
+!bin
 !.icons
 !.emacs.d
 !.config/mc
 !.local/share/applications
-!bin
 !.bash_aliases
 !.bash_env
 !.bash_logout

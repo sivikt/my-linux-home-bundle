@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Name=IntelliJ IDEA Ultimate Ed
+GenericName=Java IDE
+Comment=Edit your code
+
+Exec=/home/sivikt/IThings/tools/idea_13U/bin/idea.sh
+Terminal=false
+Icon=/home/sivikt/IThings/tools/idea_13U/bin/idea.png
+Type=Application
+Categories=IDE;Development
+X-Ayatana-Desktop-Shortcuts=NewWindow
+
+[NewWindow Shortcut Group]
+Name=New Window
+Exec=/home/sivikt/IThings/tools/idea_13U/bin/idea.sh
+
