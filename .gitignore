@@ -11,6 +11,7 @@
 !.gitignore
 !.hgrc
 !.icons
+!.IntelliJIdea/config/settings.jar
 !.local/share/applications
 !.npmrc
 !.pam_environment
