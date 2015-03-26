@@ -103,7 +103,7 @@
 ; don't show the startup screen
 (setq inhibit-startup-screen t) 
 ; don't show the menu bar
-(menu-bar-mode -1)             
+(menu-bar-mode -1)
 ; don't show the tool bar
 (require 'tool-bar)
 (tool-bar-mode -1)

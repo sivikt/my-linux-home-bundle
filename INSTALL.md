@@ -19,4 +19,13 @@ Autostart apps (show hidden):
     cd ~/.config/autostart
     cp /etc/xdg/autostart/*.desktop .
     sed -i "s/NoDisplay=true/NoDisplay=false/g" *.desktop
+    
+    
+Applications:
+    sudo mkdir /opt/popcorn-time
+    sudo mv Popcorn-Time-0.3.6-Linux64.tar.xz /opt/popcorn-time/
+    sudo tar -xJf Popcorn-Time-0.3.6-Linux64.tar.xz
+    sudo ln -s /opt/popcorn-time/Popcorn-Time /usr/local/bin/popcorn-time
+    
+    
 
