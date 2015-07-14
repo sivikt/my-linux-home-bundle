@@ -26,6 +26,6 @@ Applications:
     sudo mv Popcorn-Time-0.3.6-Linux64.tar.xz /opt/popcorn-time/
     sudo tar -xJf Popcorn-Time-0.3.6-Linux64.tar.xz
     sudo ln -s /opt/popcorn-time/Popcorn-Time /usr/local/bin/popcorn-time
-    
+    sudo apt-get install vlc-plugin-fluidsynth # play midi files    
     
 
