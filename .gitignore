@@ -6,6 +6,7 @@
 !.bashrc
 !.config/mc
 !.emacs.d
+!.emacs
 !.face
 !.gitconfig
 !.gitignore
