@@ -1,0 +1,10 @@
+"*":
+  "exception-reporting":
+    userId: "0a22c060-ec09-16ca-47bc-410d9552a721"
+  welcome:
+    showOnStartup: false
+  core: {}
+  editor:
+    invisibles: {}
+    showInvisibles: true
+    preferredLineLength: 100

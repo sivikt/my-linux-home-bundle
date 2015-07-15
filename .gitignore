@@ -1,5 +1,6 @@
 *
 !bin
+!.atom/config.cson
 !.bash_aliases
 !.bash_env
 !.bash_logout
@@ -17,3 +18,5 @@
 !.npmrc
 !.pam_environment
 !.profile
+!.ssh/config
+!.selected_editor
