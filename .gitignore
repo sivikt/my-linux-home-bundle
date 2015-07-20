@@ -5,6 +5,7 @@
 !.bash_env
 !.bash_logout
 !.bashrc
+!.color/icc
 !.config/mc
 !.emacs.d
 !.emacs
